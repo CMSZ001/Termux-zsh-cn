@@ -42,6 +42,10 @@ English
 ```bash
 apt update -y && git clone https://github.com/CMSZ001/Termux-zsh-cn.git && cd Termux-zsh-cn && bash setup.sh
 ```
+Chinese users
+```bash
+apt update -y && git clone https://gitee.com/CMSZ001/Termux-zsh-cn.git && cd Termux-zsh-cn && bash setup.sh
+```
 
 ### Update
 
