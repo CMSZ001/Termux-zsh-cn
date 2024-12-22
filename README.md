@@ -1,4 +1,8 @@
-# Termux-ZSH
+# Termux-ZSH-cn
+
+English
+&nbsp;&nbsp;| &nbsp;&nbsp;
+<a href="https://github.com/CMSZ001/Termux-zsh-cn/blob/main/README-zh_CN.md">简体中文</a>
 
 \
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/598b9e66297c4323a25dada99d377a11)](https://app.codacy.com/gh/Sohil876/Termux-zsh/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
