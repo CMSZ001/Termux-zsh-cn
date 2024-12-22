@@ -31,12 +31,12 @@ configure_termux() {
 
 install_ohmyzsh() {
 	echo -e "${green}Installing Oh-My-Zsh ...${nocol}"
-	git clone https://github.com/ohmyzsh/ohmyzsh.git "${HOME}/.oh-my-zsh"
+	git clone https://mirrors.cernet.edu.cn/ohmyzsh.git "${HOME}/.oh-my-zsh"
 	echo -e "${green}Installing powerlevel10k theme ...${nocol}"
-	git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-${HOME}/.oh-my-zsh/custom}"/themes/powerlevel10k
+	git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-${HOME}/.oh-my-zsh/custom}"/themes/powerlevel10k
 	echo -e "${green}Installing custom plugins ...${nocol}"
-	git clone https://github.com/zsh-users/zsh-autosuggestions.git "${ZSH_CUSTOM:-${HOME}/.oh-my-zsh/custom}"/plugins/zsh-autosuggestions
-	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "${ZSH_CUSTOM:-${HOME}/.oh-my-zsh/custom}"/plugins/zsh-syntax-highlighting
+	git clone https://github.moeyy.xyz/https://github.com/zsh-users/zsh-autosuggestions.git "${ZSH_CUSTOM:-${HOME}/.oh-my-zsh/custom}"/plugins/zsh-autosuggestions
+	git clone https://github.moeyy.xyz/https://github.com/zsh-users/zsh-syntax-highlighting.git "${ZSH_CUSTOM:-${HOME}/.oh-my-zsh/custom}"/plugins/zsh-syntax-highlighting
 	echo -e "${green}Configuring Oh-My-Zsh ...${nocol}"
 	cp -f OhMyZsh/zshrc "${HOME}/.zshrc"
 	if [[ "$(dpkg --print-architecture)" == "arm" ]]; then
