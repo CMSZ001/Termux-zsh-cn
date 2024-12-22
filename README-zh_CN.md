@@ -13,9 +13,9 @@
 *   安装自定义的 [powerlevel10k](https://github.com/romkatv/powerlevel10k) 主题，并将 [JetBrains Mono Nerd 字体](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono)设置为默认字体。
 *   在 `~/.termux/` 目录中添加了配色方案和字体更改脚本，以轻松更改 termux 中的配色方案和字体。
 *   安装语法高亮和自动建议插件（来自 [zsh-users](https://github.com/zsh-users)）。
-*   默认启用 `alias-finder command-not-found git node npm zsh-autosuggestions zsh-syntax-highlighting` 插件 ，要检查它们的使用情况和更多可用插件，[请转到此处](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
-*   安装并设置 [lf（终端文件管理器），](https://github.com/gokcehan/lf)按 Ctrl + O 在当前目录中执行 lf（注意，退出 lf 时，最后一个目录位置保留在当前会话中，因此您退出 lf 时所在的目录将成为您当前的终端目录，如果您出于某种原因不想要，只需在 `~/.zshrc` 文件中搜索 `bindkey -s “^o” “lfcd\C-m”`，然后在那里将 `lfcd` 更改为 `lf`）。
-*   添加了命令编辑功能，按 Ctrl + E 可以在微文本编辑器中编辑任何命令，您可以在此处将 `~/.zshrc` 文件更改为您喜欢的任何文本编辑器 `export VISUAL=“micro”。`
+*   默认启用 `alias-finder command-not-found git node npm zsh-autosuggestions zsh-syntax-highlighting` 插件 ，要检查它们的使用情况和更多可用插件，[请转到此处](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)。
+*   安装并设置 [lf（终端文件管理器）](https://github.com/gokcehan/lf)，按 Ctrl + O 在当前目录中执行 lf（注意，退出 lf 时，最后一个目录位置保留在当前会话中，因此您退出 lf 时所在的目录将成为您当前的终端目录，如果您出于某种原因不想要，只需在 `~/.zshrc` 文件中搜索 `bindkey -s “^o” “lfcd\C-m”`，然后在那里将 `lfcd` 更改为 `lf`）。
+*   添加了命令编辑功能，按 Ctrl + E 可以在微文本编辑器中编辑任何命令，您可以在此处将 `~/.zshrc` 文件更改为您喜欢的任何文本编辑器 `export VISUAL=“micro”`。
 
 ### 笔记
 
