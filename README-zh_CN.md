@@ -1,6 +1,6 @@
 # Termux-ZSH-cn
 
-[English](https://github.com/CMSZ001/Termux-zsh-cn/blob/master)
+[English](./README.md)
 &nbsp;&nbsp;| &nbsp;&nbsp;
 简体中文
 
