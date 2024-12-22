@@ -47,7 +47,7 @@ apt update -y && git clone https://github.com/CMSZ001/Termux-zsh-cn.git && cd Te
 ```
 中国用户
 ```bash
-apt update -y && git clone https://github.com/CMSZ001/Termux-zsh-cn.git && cd Termux-zsh-cn && bash setup.sh
+apt update -y && git clone https://gitee.com/CMSZ001/Termux-zsh-cn.git && cd Termux-zsh-cn && bash setup.sh
 ```
 
 ### 更新
