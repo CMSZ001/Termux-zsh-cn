@@ -38,6 +38,11 @@ English
 -   Restart termux after setup is done.
 -   On first start it will fetch and setup some things in background, leave it for a minute and its done.
 
+### Quick installation
+```bash
+apt update -y && git clone https://github.com/CMSZ001/Termux-zsh-cn.git && cd Termux-zsh-cn && bash setup.sh
+```
+
 ### Update
 
 -   You can use `omz update` command in termux to update OhMyZsh framework/plugins manually to latest versions, by default it will prompt you automatically if it finds any update available.
