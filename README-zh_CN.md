@@ -34,16 +34,24 @@ English
 *   安装 git `apt install git`
 *   克隆此存储库并切换到该目录
 ```bash
-git clone https://github.com/Sohil876/Termux-zsh.git && cd Termux-zsh
+git clone https://github.com/CMSZ001/Termux-zsh-cn.git && cd Termux-zsh-cn
 ```
-*   使用 bash `bash 运行`安装文件 setup.sh
+*   使用 bash `bash setup.sh`运行安装文件
 *   它会请求存储权限，给它。
-*   设置完成后重新启动 termux。
+*   设置完成后重新启动 Termux。
 *   第一次启动时，它会在后台获取并设置一些东西，静置一分钟就完成了。
+
+### 快速安装
+```bash
+apt update -y && git clone https://github.com/CMSZ001/Termux-zsh-cn.git && cd Termux-zsh-cn && bash setup.sh
+```
+中国用户
+```bash
+apt update -y && git clone https://github.com/CMSZ001/Termux-zsh-cn.git && cd Termux-zsh-cn && bash setup.sh
+```
 
 ### 更新
 
-*   您可以使用 termux 中的 `omz update` 命令手动将 OhMyZsh 框架/插件更新到最新版本，默认情况下，如果找到任何可用的更新，它会自动提示您。
-*   您可以在 termux 中使用 `p10k-update` 命令来检查并将 powerlevel10k 主题更新到最新版本，这必须手动完成。
-*   您可以在 termux 中使用 `custom-plugins-update` 命令来检查并更新安装在 `~/.oh-my-zsh/custom/plugins` 目录中的所有插件到最新版本（它们需要是 git 存储库），这必须手动完成。
-
+*   您可以使用 Termux 中的 `omz update` 命令手动将 OhMyZsh 框架/插件更新到最新版本，默认情况下，如果找到任何可用的更新，它会自动提示您。
+*   您可以在 Termux 中使用 `p10k-update` 命令来检查并将 powerlevel10k 主题更新到最新版本，这必须手动完成。
+*   您可以在 Termux 中使用 `custom-plugins-update` 命令来检查并更新安装在 `~/.oh-my-zsh/custom/plugins` 目录中的所有插件到最新版本（它们需要是 git 存储库），这必须手动完成。
